@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let score = 0
   let bulletsLeft = 10
 
-  const timeDrawChicken = 3000
+  const timeDrawChicken = 2000
   const reloadTime = 3000
   const maxBullets = 10
   const chickens = []
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Thêm hình ảnh con gà và áp dụng kích thước
     const chickenImage = document.createElement('img')
     const direction = Math.random() < 0.5 ? 'left' : 'right'   // Chọn hướng bay
-    chickenImage.src = direction === 'left' ? './assets/images/chicken-left.png' : './assets/images/chicken-right.png'
+    chickenImage.src = direction === 'left' ? './assets/images/chip-left.png' : './assets/images/chicken-right.png'
 
     // Áp dụng kích thước cho hình ảnh con gà
     chickenImage.style.width = `${chickenWidth}px`
