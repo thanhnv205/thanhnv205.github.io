@@ -19,10 +19,10 @@ body {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   overflow: hidden;
-  background-image: url('../images/bg.png');
-  background-size:  cover; 
+  background-image: url('../images/bg-main-gun.png');
+  background-size: cover; 
   background-position: 0 0; 
-  background-repeat: repeat-x;
+  background-repeat: repeat;
 }
 
 #gun {
